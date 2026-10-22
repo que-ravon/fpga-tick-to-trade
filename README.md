@@ -6,7 +6,7 @@ the wire; a fixed-latency trigger turns qualifying quotes into trade decision
 records — with no CPU, no cache, and no interrupt anywhere in the critical
 path.
 
-[![CI](https://github.com/namangoyal-work/fpga-tick-to-trade/actions/workflows/ci.yml/badge.svg)](../../actions/workflows/ci.yml)
+[![CI](https://github.com/que-ravon/fpga-tick-to-trade/actions/workflows/ci.yml/badge.svg)](../../actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 ## What it does
