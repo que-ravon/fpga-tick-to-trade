@@ -39,7 +39,7 @@ CI runs all of the above on every push; green CI is the merge bar.
    synthesize under Vivado. Icarus is CI-gated; Vivado is exercised by the
    synthesis flows in `synth/`. Known divergences and their workarounds are
    documented in the
-   [design rationale](https://github.com/namangoyal-work/DesignRationale).
+   [design rationale](https://github.com/que-ravon/DesignRationale).
 7. **Network byte order traps get a test.** Any multi-byte field assembly
    must have a directed test with a byte-swapped negative case.
 
@@ -51,7 +51,7 @@ CI runs all of the above on every push; green CI is the merge bar.
 - New handshake or state machine ⇒ formal properties in an
   `` `ifdef FORMAL `` block plus a `.sby` job wired into CI.
 - Bench changes: calibrate against a known-good reference first (see the
-  [design rationale](https://github.com/namangoyal-work/DesignRationale) §12
+  [design rationale](https://github.com/que-ravon/DesignRationale) §12
   for why).
 
 ## Style
@@ -65,5 +65,5 @@ CI runs all of the above on every push; green CI is the merge bar.
 ## Documentation duty
 
 If you make a non-obvious design decision, add its defense to the
-[design rationale](https://github.com/namangoyal-work/DesignRationale) in the
+[design rationale](https://github.com/que-ravon/DesignRationale) in the
 same PR. An undefended decision is a documentation bug in this repo.
